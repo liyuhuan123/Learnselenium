@@ -57,4 +57,3 @@ driver.execute_script(js0)
 
 time.sleep(6)
 driver.quit()
-
