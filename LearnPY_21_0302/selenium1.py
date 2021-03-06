@@ -1,3 +1,4 @@
+# 第一个自动化测试脚本
 # coding = UTF-8
 from selenium import webdriver
 import time

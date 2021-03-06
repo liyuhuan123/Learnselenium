@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 driver = webdriver.Firefox()
 driver.get("https://www.baidu.com/")
-driver.find_element_by_id("kw").send_keys("奈雪の茶")
+# driver.find_element_by_id("kw").send_keys("奈雪の茶")
 # submit 提交 == 点击
 # 注意:只有当元素中的type属性里面有submit的时候才能用submit
 # driver.find_element_by_id("su").submit()
